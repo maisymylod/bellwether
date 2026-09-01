@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  engine:
+    name: Engine
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: engine
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -e ".[dev]"
+      - name: Lint
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Type check
+        run: mypy
+      - name: Tests
+        run: pytest -q
+      # The eval gate runs on the offline provider at its default fault rate, so
+      # it needs no API key and produces the same numbers on every machine.
+      - name: Eval gate
+        run: python -m bellwether.cli gate
+      - name: Self-consistency sweep
+        run: python -m bellwether.cli sweep
+
+  console:
+    name: Console
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+
+  hygiene:
+    name: Hygiene
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: No credentials in the tree
+        run: |
+          if grep -rInE 'sk-ant-[A-Za-z0-9_-]{10,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----' \
+              --exclude-dir=.git --exclude-dir=node_modules --exclude-dir=.venv .; then
+            echo "::error::a credential-shaped string is committed"
+            exit 1
+          fi
+      - name: The corpus stays invented
+        # Every ticker in the corpus must be one this repo made up. A real one
+        # creeping in would turn synthetic demo data into a claim about a real
+        # company, and the eval's ground truth would stop meaning anything.
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, sys
+          data = json.loads(pathlib.Path("engine/bellwether/corpus/data/filings.json").read_text())
+          expected = {"NVLN", "ARDX", "KLTR", "PMBR", "SOLV", "HRVN"}
+          found = {c["ticker"] for c in data["companies"]}
+          if found != expected:
+              sys.exit(f"corpus tickers changed: {sorted(found)} != {sorted(expected)}")
+          print(f"{len(data['filings'])} synthetic filings across {len(found)} invented issuers")
+          PY

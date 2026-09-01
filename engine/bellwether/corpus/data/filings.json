@@ -1,0 +1,2050 @@
+{
+  "companies": [
+    {
+      "name": "Novaline Systems",
+      "peers": [
+        "ARDX",
+        "SOLV"
+      ],
+      "sector": "Payments infrastructure",
+      "ticker": "NVLN"
+    },
+    {
+      "name": "Ardent Exchange",
+      "peers": [
+        "NVLN",
+        "HRVN"
+      ],
+      "sector": "Market infrastructure",
+      "ticker": "ARDX"
+    },
+    {
+      "name": "Kiltar Capital Software",
+      "peers": [
+        "PMBR",
+        "SOLV"
+      ],
+      "sector": "Portfolio accounting",
+      "ticker": "KLTR"
+    },
+    {
+      "name": "Pembroke Data Group",
+      "peers": [
+        "KLTR",
+        "ARDX"
+      ],
+      "sector": "Reference data",
+      "ticker": "PMBR"
+    },
+    {
+      "name": "Solvent Treasury",
+      "peers": [
+        "NVLN",
+        "KLTR"
+      ],
+      "sector": "Corporate treasury",
+      "ticker": "SOLV"
+    },
+    {
+      "name": "Harrowvane Clearing",
+      "peers": [
+        "ARDX",
+        "PMBR"
+      ],
+      "sector": "Post-trade clearing",
+      "ticker": "HRVN"
+    }
+  ],
+  "filings": [
+    {
+      "company": "Novaline Systems",
+      "filed": "2025-04-24",
+      "financials": {
+        "cost_of_revenue_musd": 318.8,
+        "customers": 8959,
+        "free_cash_flow_musd": 113.0,
+        "net_income_musd": 127.1,
+        "opex_musd": 358.8,
+        "revenue_musd": 804.7
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 877.1,
+        "next_period_revenue_musd_low": 804.7
+      },
+      "id": "NVLN-2025Q1",
+      "mdna": [
+        {
+          "id": "NVLN-2025Q1#MD-1",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Acquiring offset by softness elsewhere."
+        },
+        {
+          "id": "NVLN-2025Q1#MD-2",
+          "text": "The estimate is subject to revision as additional information becomes available."
+        },
+        {
+          "id": "NVLN-2025Q1#MD-3",
+          "text": "Take rate was 49.2 basis points, above the prior period."
+        },
+        {
+          "id": "NVLN-2025Q1#MD-4",
+          "text": "The company has raised its guidance for the coming period."
+        }
+      ],
+      "period": "2025Q1",
+      "risk_factors": [
+        {
+          "id": "NVLN-2025Q1#RF-1",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 41.2% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 9 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "NVLN-2025Q1#RF-2",
+          "severity": "medium",
+          "text": "Credit limits for 26269 accounts are set by an automated model. Model error has produced 1 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        },
+        {
+          "id": "NVLN-2025Q1#RF-3",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 11.2% annualised in the period. Replacement cost is carried at approximately $34.2m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        },
+        {
+          "id": "NVLN-2025Q1#RF-4",
+          "severity": "low",
+          "text": "28.9% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $5.2m at constant volume.",
+          "title": "Foreign exchange translation"
+        }
+      ],
+      "segments": [
+        {
+          "id": "NVLN-2025Q1#SEG-1",
+          "name": "Acquiring",
+          "revenue_musd": 279.1
+        },
+        {
+          "id": "NVLN-2025Q1#SEG-2",
+          "name": "Issuing",
+          "revenue_musd": 207.6
+        },
+        {
+          "id": "NVLN-2025Q1#SEG-3",
+          "name": "Platform services",
+          "revenue_musd": 318.1
+        }
+      ],
+      "ticker": "NVLN"
+    },
+    {
+      "company": "Novaline Systems",
+      "filed": "2025-07-25",
+      "financials": {
+        "cost_of_revenue_musd": 350.8,
+        "customers": 15499,
+        "free_cash_flow_musd": 137.4,
+        "net_income_musd": 108.2,
+        "opex_musd": 387.8,
+        "revenue_musd": 846.8
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 923.0,
+        "next_period_revenue_musd_low": 846.8
+      },
+      "id": "NVLN-2025Q2",
+      "mdna": [
+        {
+          "id": "NVLN-2025Q2#MD-1",
+          "text": "Revenue grew 5.2% against the prior period, driven principally by Issuing."
+        },
+        {
+          "id": "NVLN-2025Q2#MD-2",
+          "text": "Timing of recognition could shift between periods."
+        },
+        {
+          "id": "NVLN-2025Q2#MD-3",
+          "text": "The estimate is subject to revision as additional information becomes available."
+        },
+        {
+          "id": "NVLN-2025Q2#MD-4",
+          "text": "Timing of recognition could shift between periods."
+        },
+        {
+          "id": "NVLN-2025Q2#MD-5",
+          "text": "The company has revised its guidance for the coming period downward."
+        },
+        {
+          "id": "NVLN-2025Q2#MD-6",
+          "text": "Operating expense grew 3.2% as the company continued to invest in the settlement platform."
+        }
+      ],
+      "period": "2025Q2",
+      "risk_factors": [
+        {
+          "id": "NVLN-2025Q2#RF-1",
+          "severity": "high",
+          "text": "Core ledger workloads run in 2 regions of a single cloud provider. A provider-wide outage would suspend authorisation, and the tested recovery objective is 45 minutes.",
+          "title": "Third-party infrastructure dependency"
+        },
+        {
+          "id": "NVLN-2025Q2#RF-2",
+          "severity": "medium",
+          "text": "Credit limits for 4934 accounts are set by an automated model. Model error has produced 9 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        },
+        {
+          "id": "NVLN-2025Q2#RF-3",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 26.0% annualised in the period. Replacement cost is carried at approximately $10.8m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        },
+        {
+          "id": "NVLN-2025Q2#RF-4",
+          "severity": "low",
+          "text": "20.7% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $29.1m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "NVLN-2025Q2#RF-5",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 20 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        }
+      ],
+      "segments": [
+        {
+          "id": "NVLN-2025Q2#SEG-1",
+          "name": "Acquiring",
+          "revenue_musd": 211.6
+        },
+        {
+          "id": "NVLN-2025Q2#SEG-2",
+          "name": "Issuing",
+          "revenue_musd": 396.5
+        },
+        {
+          "id": "NVLN-2025Q2#SEG-3",
+          "name": "Platform services",
+          "revenue_musd": 238.7
+        }
+      ],
+      "ticker": "NVLN"
+    },
+    {
+      "company": "Novaline Systems",
+      "filed": "2025-10-23",
+      "financials": {
+        "cost_of_revenue_musd": 249.7,
+        "customers": 2625,
+        "free_cash_flow_musd": 203.6,
+        "net_income_musd": 259.2,
+        "opex_musd": 371.3,
+        "revenue_musd": 880.2
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 959.4,
+        "next_period_revenue_musd_low": 880.2
+      },
+      "id": "NVLN-2025Q3",
+      "mdna": [
+        {
+          "id": "NVLN-2025Q3#MD-1",
+          "text": "The estimate is subject to revision as additional information becomes available."
+        },
+        {
+          "id": "NVLN-2025Q3#MD-2",
+          "text": "The company has raised its guidance for the coming period."
+        },
+        {
+          "id": "NVLN-2025Q3#MD-3",
+          "text": "The estimate is subject to revision as additional information becomes available."
+        },
+        {
+          "id": "NVLN-2025Q3#MD-4",
+          "text": "Revenue grew 10.4% against the prior period, driven principally by Platform services."
+        },
+        {
+          "id": "NVLN-2025Q3#MD-5",
+          "text": "Operating expense grew 2.8% as the company continued to invest in the data pipeline."
+        },
+        {
+          "id": "NVLN-2025Q3#MD-6",
+          "text": "Results may not be indicative of future periods."
+        }
+      ],
+      "period": "2025Q3",
+      "risk_factors": [
+        {
+          "id": "NVLN-2025Q3#RF-1",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 35.5% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 8 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "NVLN-2025Q3#RF-2",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 14 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "NVLN-2025Q3#RF-3",
+          "severity": "medium",
+          "text": "Credit limits for 26518 accounts are set by an automated model. Model error has produced 7 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        }
+      ],
+      "segments": [
+        {
+          "id": "NVLN-2025Q3#SEG-1",
+          "name": "Acquiring",
+          "revenue_musd": 149.2
+        },
+        {
+          "id": "NVLN-2025Q3#SEG-2",
+          "name": "Issuing",
+          "revenue_musd": 424.2
+        },
+        {
+          "id": "NVLN-2025Q3#SEG-3",
+          "name": "Platform services",
+          "revenue_musd": 306.8
+        }
+      ],
+      "ticker": "NVLN"
+    },
+    {
+      "company": "Novaline Systems",
+      "filed": "2026-02-12",
+      "financials": {
+        "cost_of_revenue_musd": 323.3,
+        "customers": 20826,
+        "free_cash_flow_musd": 214.1,
+        "net_income_musd": 198.4,
+        "opex_musd": 366.9,
+        "revenue_musd": 888.6
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 968.6,
+        "next_period_revenue_musd_low": 888.6
+      },
+      "id": "NVLN-2025Q4",
+      "mdna": [
+        {
+          "id": "NVLN-2025Q4#MD-1",
+          "text": "The estimate is subject to revision as additional information becomes available."
+        },
+        {
+          "id": "NVLN-2025Q4#MD-2",
+          "text": "The company reaffirms its guidance for the coming period."
+        },
+        {
+          "id": "NVLN-2025Q4#MD-3",
+          "text": "Results may not be indicative of future periods."
+        },
+        {
+          "id": "NVLN-2025Q4#MD-4",
+          "text": "Revenue grew 15.6% against the prior period, driven principally by Platform services."
+        },
+        {
+          "id": "NVLN-2025Q4#MD-5",
+          "text": "Management believes, though cannot assure, that the trend continues."
+        },
+        {
+          "id": "NVLN-2025Q4#MD-6",
+          "text": "Take rate was 76.8 basis points, below the prior period."
+        }
+      ],
+      "period": "2025Q4",
+      "risk_factors": [
+        {
+          "id": "NVLN-2025Q4#RF-1",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 11 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "NVLN-2025Q4#RF-2",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $23.6m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "NVLN-2025Q4#RF-3",
+          "severity": "high",
+          "text": "Core ledger workloads run in 2 regions of a single cloud provider. A provider-wide outage would suspend authorisation, and the tested recovery objective is 30 minutes.",
+          "title": "Third-party infrastructure dependency"
+        },
+        {
+          "id": "NVLN-2025Q4#RF-4",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 51.2% annualised in the period. Replacement cost is carried at approximately $33.3m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        },
+        {
+          "id": "NVLN-2025Q4#RF-5",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 20.1% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 10 months.",
+          "title": "Concentration of settlement volume"
+        }
+      ],
+      "segments": [
+        {
+          "id": "NVLN-2025Q4#SEG-1",
+          "name": "Acquiring",
+          "revenue_musd": 204.3
+        },
+        {
+          "id": "NVLN-2025Q4#SEG-2",
+          "name": "Issuing",
+          "revenue_musd": 144.6
+        },
+        {
+          "id": "NVLN-2025Q4#SEG-3",
+          "name": "Platform services",
+          "revenue_musd": 539.7
+        }
+      ],
+      "ticker": "NVLN"
+    },
+    {
+      "company": "Ardent Exchange",
+      "filed": "2025-04-24",
+      "financials": {
+        "cost_of_revenue_musd": 186.3,
+        "customers": 22239,
+        "free_cash_flow_musd": 94.9,
+        "net_income_musd": 127.5,
+        "opex_musd": 222.8,
+        "revenue_musd": 536.6
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 584.9,
+        "next_period_revenue_musd_low": 536.6
+      },
+      "id": "ARDX-2025Q1",
+      "mdna": [
+        {
+          "id": "ARDX-2025Q1#MD-1",
+          "text": "The company has revised its guidance for the coming period downward."
+        },
+        {
+          "id": "ARDX-2025Q1#MD-2",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Listings offset by softness elsewhere."
+        },
+        {
+          "id": "ARDX-2025Q1#MD-3",
+          "text": "Take rate was 34.5 basis points, in line with the prior period."
+        }
+      ],
+      "period": "2025Q1",
+      "risk_factors": [
+        {
+          "id": "ARDX-2025Q1#RF-1",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $35.1m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "ARDX-2025Q1#RF-2",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 60.8% annualised in the period. Replacement cost is carried at approximately $37.2m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        },
+        {
+          "id": "ARDX-2025Q1#RF-3",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 28.7% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 11 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "ARDX-2025Q1#RF-4",
+          "severity": "medium",
+          "text": "Credit limits for 5714 accounts are set by an automated model. Model error has produced 7 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        },
+        {
+          "id": "ARDX-2025Q1#RF-5",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 9 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ARDX-2025Q1#SEG-1",
+          "name": "Transaction fees",
+          "revenue_musd": 115.7
+        },
+        {
+          "id": "ARDX-2025Q1#SEG-2",
+          "name": "Listings",
+          "revenue_musd": 72.1
+        },
+        {
+          "id": "ARDX-2025Q1#SEG-3",
+          "name": "Data feeds",
+          "revenue_musd": 348.8
+        }
+      ],
+      "ticker": "ARDX"
+    },
+    {
+      "company": "Ardent Exchange",
+      "filed": "2025-07-25",
+      "financials": {
+        "cost_of_revenue_musd": 154.8,
+        "customers": 10314,
+        "free_cash_flow_musd": 187.3,
+        "net_income_musd": 169.3,
+        "opex_musd": 216.3,
+        "revenue_musd": 540.4
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 589.0,
+        "next_period_revenue_musd_low": 540.4
+      },
+      "id": "ARDX-2025Q2",
+      "mdna": [
+        {
+          "id": "ARDX-2025Q2#MD-1",
+          "text": "The estimate is subject to revision as additional information becomes available."
+        },
+        {
+          "id": "ARDX-2025Q2#MD-2",
+          "text": "Operating expense grew 13.4% as the company continued to invest in the settlement platform."
+        },
+        {
+          "id": "ARDX-2025Q2#MD-3",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Listings offset by softness elsewhere."
+        },
+        {
+          "id": "ARDX-2025Q2#MD-4",
+          "text": "The estimate is subject to revision as additional information becomes available."
+        },
+        {
+          "id": "ARDX-2025Q2#MD-5",
+          "text": "The company has raised its guidance for the coming period."
+        },
+        {
+          "id": "ARDX-2025Q2#MD-6",
+          "text": "Timing of recognition could shift between periods."
+        }
+      ],
+      "period": "2025Q2",
+      "risk_factors": [
+        {
+          "id": "ARDX-2025Q2#RF-1",
+          "severity": "medium",
+          "text": "Credit limits for 30578 accounts are set by an automated model. Model error has produced 4 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        },
+        {
+          "id": "ARDX-2025Q2#RF-2",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $17.7m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "ARDX-2025Q2#RF-3",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 16 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "ARDX-2025Q2#RF-4",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 25.9% annualised in the period. Replacement cost is carried at approximately $26.6m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        },
+        {
+          "id": "ARDX-2025Q2#RF-5",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 17.1% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 8 months.",
+          "title": "Concentration of settlement volume"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ARDX-2025Q2#SEG-1",
+          "name": "Transaction fees",
+          "revenue_musd": 153.8
+        },
+        {
+          "id": "ARDX-2025Q2#SEG-2",
+          "name": "Listings",
+          "revenue_musd": 240.2
+        },
+        {
+          "id": "ARDX-2025Q2#SEG-3",
+          "name": "Data feeds",
+          "revenue_musd": 146.4
+        }
+      ],
+      "ticker": "ARDX"
+    },
+    {
+      "company": "Ardent Exchange",
+      "filed": "2025-10-23",
+      "financials": {
+        "cost_of_revenue_musd": 148.9,
+        "customers": 2411,
+        "free_cash_flow_musd": 123.4,
+        "net_income_musd": 105.7,
+        "opex_musd": 273.5,
+        "revenue_musd": 528.1
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 575.6,
+        "next_period_revenue_musd_low": 528.1
+      },
+      "id": "ARDX-2025Q3",
+      "mdna": [
+        {
+          "id": "ARDX-2025Q3#MD-1",
+          "text": "The estimate is subject to revision as additional information becomes available."
+        },
+        {
+          "id": "ARDX-2025Q3#MD-2",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Transaction fees offset by softness elsewhere."
+        },
+        {
+          "id": "ARDX-2025Q3#MD-3",
+          "text": "Gross margin was 71.8%, and management expects it to remain in a similar range."
+        },
+        {
+          "id": "ARDX-2025Q3#MD-4",
+          "text": "Results may not be indicative of future periods."
+        },
+        {
+          "id": "ARDX-2025Q3#MD-5",
+          "text": "The company has revised its guidance for the coming period downward."
+        }
+      ],
+      "period": "2025Q3",
+      "risk_factors": [
+        {
+          "id": "ARDX-2025Q3#RF-1",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 34.7% annualised in the period. Replacement cost is carried at approximately $36.3m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        },
+        {
+          "id": "ARDX-2025Q3#RF-2",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $16.1m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "ARDX-2025Q3#RF-3",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 29.4% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 11 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "ARDX-2025Q3#RF-4",
+          "severity": "high",
+          "text": "Core ledger workloads run in 3 regions of a single cloud provider. A provider-wide outage would suspend authorisation, and the tested recovery objective is 45 minutes.",
+          "title": "Third-party infrastructure dependency"
+        },
+        {
+          "id": "ARDX-2025Q3#RF-5",
+          "severity": "medium",
+          "text": "Credit limits for 2176 accounts are set by an automated model. Model error has produced 6 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ARDX-2025Q3#SEG-1",
+          "name": "Transaction fees",
+          "revenue_musd": 211.7
+        },
+        {
+          "id": "ARDX-2025Q3#SEG-2",
+          "name": "Listings",
+          "revenue_musd": 203.3
+        },
+        {
+          "id": "ARDX-2025Q3#SEG-3",
+          "name": "Data feeds",
+          "revenue_musd": 113.1
+        }
+      ],
+      "ticker": "ARDX"
+    },
+    {
+      "company": "Ardent Exchange",
+      "filed": "2026-02-12",
+      "financials": {
+        "cost_of_revenue_musd": 159.7,
+        "customers": 7086,
+        "free_cash_flow_musd": 225.4,
+        "net_income_musd": 173.1,
+        "opex_musd": 207.6,
+        "revenue_musd": 540.4
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 589.0,
+        "next_period_revenue_musd_low": 540.4
+      },
+      "id": "ARDX-2025Q4",
+      "mdna": [
+        {
+          "id": "ARDX-2025Q4#MD-1",
+          "text": "Take rate was 66.6 basis points, above the prior period."
+        },
+        {
+          "id": "ARDX-2025Q4#MD-2",
+          "text": "Management believes, though cannot assure, that the trend continues."
+        },
+        {
+          "id": "ARDX-2025Q4#MD-3",
+          "text": "Timing of recognition could shift between periods."
+        },
+        {
+          "id": "ARDX-2025Q4#MD-4",
+          "text": "The company has revised its guidance for the coming period downward."
+        },
+        {
+          "id": "ARDX-2025Q4#MD-5",
+          "text": "Revenue grew 1.2% against the prior period, driven principally by Listings."
+        }
+      ],
+      "period": "2025Q4",
+      "risk_factors": [
+        {
+          "id": "ARDX-2025Q4#RF-1",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 4 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "ARDX-2025Q4#RF-2",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 52.2% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 10 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "ARDX-2025Q4#RF-3",
+          "severity": "high",
+          "text": "Core ledger workloads run in 3 regions of a single cloud provider. A provider-wide outage would suspend authorisation, and the tested recovery objective is 30 minutes.",
+          "title": "Third-party infrastructure dependency"
+        },
+        {
+          "id": "ARDX-2025Q4#RF-4",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $31.8m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "ARDX-2025Q4#RF-5",
+          "severity": "medium",
+          "text": "Credit limits for 11813 accounts are set by an automated model. Model error has produced 6 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ARDX-2025Q4#SEG-1",
+          "name": "Transaction fees",
+          "revenue_musd": 264.2
+        },
+        {
+          "id": "ARDX-2025Q4#SEG-2",
+          "name": "Listings",
+          "revenue_musd": 188.5
+        },
+        {
+          "id": "ARDX-2025Q4#SEG-3",
+          "name": "Data feeds",
+          "revenue_musd": 87.7
+        }
+      ],
+      "ticker": "ARDX"
+    },
+    {
+      "company": "Kiltar Capital Software",
+      "filed": "2025-04-24",
+      "financials": {
+        "cost_of_revenue_musd": 244.8,
+        "customers": 15785,
+        "free_cash_flow_musd": 35.2,
+        "net_income_musd": 34.9,
+        "opex_musd": 293.0,
+        "revenue_musd": 572.7
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 624.2,
+        "next_period_revenue_musd_low": 572.7
+      },
+      "id": "KLTR-2025Q1",
+      "mdna": [
+        {
+          "id": "KLTR-2025Q1#MD-1",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Subscription offset by softness elsewhere."
+        },
+        {
+          "id": "KLTR-2025Q1#MD-2",
+          "text": "Operating expense grew 9.8% as the company continued to invest in the client onboarding flow."
+        },
+        {
+          "id": "KLTR-2025Q1#MD-3",
+          "text": "The company reaffirms its guidance for the coming period."
+        }
+      ],
+      "period": "2025Q1",
+      "risk_factors": [
+        {
+          "id": "KLTR-2025Q1#RF-1",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 16 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "KLTR-2025Q1#RF-2",
+          "severity": "low",
+          "text": "47.2% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $31.4m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "KLTR-2025Q1#RF-3",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 48.1% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 17 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "KLTR-2025Q1#RF-4",
+          "severity": "medium",
+          "text": "Credit limits for 11360 accounts are set by an automated model. Model error has produced 6 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        }
+      ],
+      "segments": [
+        {
+          "id": "KLTR-2025Q1#SEG-1",
+          "name": "Subscription",
+          "revenue_musd": 370.1
+        },
+        {
+          "id": "KLTR-2025Q1#SEG-2",
+          "name": "Implementation",
+          "revenue_musd": 95.3
+        },
+        {
+          "id": "KLTR-2025Q1#SEG-3",
+          "name": "Managed services",
+          "revenue_musd": 107.3
+        }
+      ],
+      "ticker": "KLTR"
+    },
+    {
+      "company": "Kiltar Capital Software",
+      "filed": "2025-07-25",
+      "financials": {
+        "cost_of_revenue_musd": 214.3,
+        "customers": 17787,
+        "free_cash_flow_musd": 129.5,
+        "net_income_musd": 121.0,
+        "opex_musd": 288.1,
+        "revenue_musd": 623.4
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 679.5,
+        "next_period_revenue_musd_low": 623.4
+      },
+      "id": "KLTR-2025Q2",
+      "mdna": [
+        {
+          "id": "KLTR-2025Q2#MD-1",
+          "text": "The company reaffirms its guidance for the coming period."
+        },
+        {
+          "id": "KLTR-2025Q2#MD-2",
+          "text": "Management believes, though cannot assure, that the trend continues."
+        },
+        {
+          "id": "KLTR-2025Q2#MD-3",
+          "text": "Revenue grew 5.2% against the prior period, driven principally by Managed services."
+        },
+        {
+          "id": "KLTR-2025Q2#MD-4",
+          "text": "Take rate was 31.4 basis points, above the prior period."
+        },
+        {
+          "id": "KLTR-2025Q2#MD-5",
+          "text": "Management believes, though cannot assure, that the trend continues."
+        }
+      ],
+      "period": "2025Q2",
+      "risk_factors": [
+        {
+          "id": "KLTR-2025Q2#RF-1",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 14 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "KLTR-2025Q2#RF-2",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $14.3m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "KLTR-2025Q2#RF-3",
+          "severity": "low",
+          "text": "51.3% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $9.4m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "KLTR-2025Q2#RF-4",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 45.3% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 8 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "KLTR-2025Q2#RF-5",
+          "severity": "high",
+          "text": "Core ledger workloads run in 1 regions of a single cloud provider. A provider-wide outage would suspend authorisation, and the tested recovery objective is 90 minutes.",
+          "title": "Third-party infrastructure dependency"
+        }
+      ],
+      "segments": [
+        {
+          "id": "KLTR-2025Q2#SEG-1",
+          "name": "Subscription",
+          "revenue_musd": 290.9
+        },
+        {
+          "id": "KLTR-2025Q2#SEG-2",
+          "name": "Implementation",
+          "revenue_musd": 151.9
+        },
+        {
+          "id": "KLTR-2025Q2#SEG-3",
+          "name": "Managed services",
+          "revenue_musd": 180.6
+        }
+      ],
+      "ticker": "KLTR"
+    },
+    {
+      "company": "Kiltar Capital Software",
+      "filed": "2025-10-23",
+      "financials": {
+        "cost_of_revenue_musd": 261.3,
+        "customers": 10216,
+        "free_cash_flow_musd": 94.2,
+        "net_income_musd": 99.5,
+        "opex_musd": 305.3,
+        "revenue_musd": 666.1
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 726.0,
+        "next_period_revenue_musd_low": 666.1
+      },
+      "id": "KLTR-2025Q3",
+      "mdna": [
+        {
+          "id": "KLTR-2025Q3#MD-1",
+          "text": "The company has revised its guidance for the coming period downward."
+        },
+        {
+          "id": "KLTR-2025Q3#MD-2",
+          "text": "Revenue grew 10.4% against the prior period, driven principally by Implementation."
+        },
+        {
+          "id": "KLTR-2025Q3#MD-3",
+          "text": "Take rate was 40.5 basis points, above the prior period."
+        },
+        {
+          "id": "KLTR-2025Q3#MD-4",
+          "text": "Timing of recognition could shift between periods."
+        }
+      ],
+      "period": "2025Q3",
+      "risk_factors": [
+        {
+          "id": "KLTR-2025Q3#RF-1",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $6.3m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "KLTR-2025Q3#RF-2",
+          "severity": "low",
+          "text": "52.3% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $26.3m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "KLTR-2025Q3#RF-3",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 21 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "KLTR-2025Q3#RF-4",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 27.7% annualised in the period. Replacement cost is carried at approximately $5.3m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        }
+      ],
+      "segments": [
+        {
+          "id": "KLTR-2025Q3#SEG-1",
+          "name": "Subscription",
+          "revenue_musd": 116.5
+        },
+        {
+          "id": "KLTR-2025Q3#SEG-2",
+          "name": "Implementation",
+          "revenue_musd": 270.2
+        },
+        {
+          "id": "KLTR-2025Q3#SEG-3",
+          "name": "Managed services",
+          "revenue_musd": 279.4
+        }
+      ],
+      "ticker": "KLTR"
+    },
+    {
+      "company": "Kiltar Capital Software",
+      "filed": "2026-02-12",
+      "financials": {
+        "cost_of_revenue_musd": 247.4,
+        "customers": 24721,
+        "free_cash_flow_musd": 72.9,
+        "net_income_musd": 98.3,
+        "opex_musd": 315.8,
+        "revenue_musd": 661.5
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 721.0,
+        "next_period_revenue_musd_low": 661.5
+      },
+      "id": "KLTR-2025Q4",
+      "mdna": [
+        {
+          "id": "KLTR-2025Q4#MD-1",
+          "text": "Operating expense grew 19.6% as the company continued to invest in the settlement platform."
+        },
+        {
+          "id": "KLTR-2025Q4#MD-2",
+          "text": "Revenue grew 15.6% against the prior period, driven principally by Subscription."
+        },
+        {
+          "id": "KLTR-2025Q4#MD-3",
+          "text": "The company has revised its guidance for the coming period downward."
+        }
+      ],
+      "period": "2025Q4",
+      "risk_factors": [
+        {
+          "id": "KLTR-2025Q4#RF-1",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 17.0% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 4 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "KLTR-2025Q4#RF-2",
+          "severity": "low",
+          "text": "53.0% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $30.0m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "KLTR-2025Q4#RF-3",
+          "severity": "medium",
+          "text": "Credit limits for 1460 accounts are set by an automated model. Model error has produced 2 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        },
+        {
+          "id": "KLTR-2025Q4#RF-4",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $23.4m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        }
+      ],
+      "segments": [
+        {
+          "id": "KLTR-2025Q4#SEG-1",
+          "name": "Subscription",
+          "revenue_musd": 345.7
+        },
+        {
+          "id": "KLTR-2025Q4#SEG-2",
+          "name": "Implementation",
+          "revenue_musd": 205.6
+        },
+        {
+          "id": "KLTR-2025Q4#SEG-3",
+          "name": "Managed services",
+          "revenue_musd": 110.3
+        }
+      ],
+      "ticker": "KLTR"
+    },
+    {
+      "company": "Pembroke Data Group",
+      "filed": "2025-04-24",
+      "financials": {
+        "cost_of_revenue_musd": 320.5,
+        "customers": 9396,
+        "free_cash_flow_musd": 181.4,
+        "net_income_musd": 147.8,
+        "opex_musd": 271.2,
+        "revenue_musd": 739.5
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 806.1,
+        "next_period_revenue_musd_low": 739.5
+      },
+      "id": "PMBR-2025Q1",
+      "mdna": [
+        {
+          "id": "PMBR-2025Q1#MD-1",
+          "text": "Timing of recognition could shift between periods."
+        },
+        {
+          "id": "PMBR-2025Q1#MD-2",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Terminal offset by softness elsewhere."
+        },
+        {
+          "id": "PMBR-2025Q1#MD-3",
+          "text": "Take rate was 54.6 basis points, above the prior period."
+        },
+        {
+          "id": "PMBR-2025Q1#MD-4",
+          "text": "The company has raised its guidance for the coming period."
+        },
+        {
+          "id": "PMBR-2025Q1#MD-5",
+          "text": "Timing of recognition could shift between periods."
+        }
+      ],
+      "period": "2025Q1",
+      "risk_factors": [
+        {
+          "id": "PMBR-2025Q1#RF-1",
+          "severity": "low",
+          "text": "62.3% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $27.9m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "PMBR-2025Q1#RF-2",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 19.2% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 9 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "PMBR-2025Q1#RF-3",
+          "severity": "medium",
+          "text": "Credit limits for 42668 accounts are set by an automated model. Model error has produced 7 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        }
+      ],
+      "segments": [
+        {
+          "id": "PMBR-2025Q1#SEG-1",
+          "name": "Terminal",
+          "revenue_musd": 210.8
+        },
+        {
+          "id": "PMBR-2025Q1#SEG-2",
+          "name": "Enterprise feeds",
+          "revenue_musd": 289.5
+        },
+        {
+          "id": "PMBR-2025Q1#SEG-3",
+          "name": "Analytics",
+          "revenue_musd": 239.2
+        }
+      ],
+      "ticker": "PMBR"
+    },
+    {
+      "company": "Pembroke Data Group",
+      "filed": "2025-07-25",
+      "financials": {
+        "cost_of_revenue_musd": 319.4,
+        "customers": 24936,
+        "free_cash_flow_musd": 206.6,
+        "net_income_musd": 157.7,
+        "opex_musd": 304.6,
+        "revenue_musd": 781.7
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 852.1,
+        "next_period_revenue_musd_low": 781.7
+      },
+      "id": "PMBR-2025Q2",
+      "mdna": [
+        {
+          "id": "PMBR-2025Q2#MD-1",
+          "text": "Revenue grew 5.2% against the prior period, driven principally by Terminal."
+        },
+        {
+          "id": "PMBR-2025Q2#MD-2",
+          "text": "Management believes, though cannot assure, that the trend continues."
+        },
+        {
+          "id": "PMBR-2025Q2#MD-3",
+          "text": "Take rate was 91.9 basis points, above the prior period."
+        },
+        {
+          "id": "PMBR-2025Q2#MD-4",
+          "text": "Management believes, though cannot assure, that the trend continues."
+        },
+        {
+          "id": "PMBR-2025Q2#MD-5",
+          "text": "The company has raised its guidance for the coming period."
+        }
+      ],
+      "period": "2025Q2",
+      "risk_factors": [
+        {
+          "id": "PMBR-2025Q2#RF-1",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 9 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "PMBR-2025Q2#RF-2",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $26.0m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "PMBR-2025Q2#RF-3",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 22.5% annualised in the period. Replacement cost is carried at approximately $2.5m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        }
+      ],
+      "segments": [
+        {
+          "id": "PMBR-2025Q2#SEG-1",
+          "name": "Terminal",
+          "revenue_musd": 107.1
+        },
+        {
+          "id": "PMBR-2025Q2#SEG-2",
+          "name": "Enterprise feeds",
+          "revenue_musd": 212.5
+        },
+        {
+          "id": "PMBR-2025Q2#SEG-3",
+          "name": "Analytics",
+          "revenue_musd": 462.1
+        }
+      ],
+      "ticker": "PMBR"
+    },
+    {
+      "company": "Pembroke Data Group",
+      "filed": "2025-10-23",
+      "financials": {
+        "cost_of_revenue_musd": 313.7,
+        "customers": 1339,
+        "free_cash_flow_musd": 154.5,
+        "net_income_musd": 169.1,
+        "opex_musd": 352.8,
+        "revenue_musd": 835.6
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 910.8,
+        "next_period_revenue_musd_low": 835.6
+      },
+      "id": "PMBR-2025Q3",
+      "mdna": [
+        {
+          "id": "PMBR-2025Q3#MD-1",
+          "text": "The company has revised its guidance for the coming period downward."
+        },
+        {
+          "id": "PMBR-2025Q3#MD-2",
+          "text": "Revenue grew 10.4% against the prior period, driven principally by Terminal."
+        },
+        {
+          "id": "PMBR-2025Q3#MD-3",
+          "text": "Operating expense grew 7.9% as the company continued to invest in regulatory reporting."
+        },
+        {
+          "id": "PMBR-2025Q3#MD-4",
+          "text": "Timing of recognition could shift between periods."
+        }
+      ],
+      "period": "2025Q3",
+      "risk_factors": [
+        {
+          "id": "PMBR-2025Q3#RF-1",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $15.9m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "PMBR-2025Q3#RF-2",
+          "severity": "low",
+          "text": "33.7% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $16.2m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "PMBR-2025Q3#RF-3",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 50.2% annualised in the period. Replacement cost is carried at approximately $35.3m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        },
+        {
+          "id": "PMBR-2025Q3#RF-4",
+          "severity": "medium",
+          "text": "Credit limits for 41900 accounts are set by an automated model. Model error has produced 3 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        }
+      ],
+      "segments": [
+        {
+          "id": "PMBR-2025Q3#SEG-1",
+          "name": "Terminal",
+          "revenue_musd": 264.6
+        },
+        {
+          "id": "PMBR-2025Q3#SEG-2",
+          "name": "Enterprise feeds",
+          "revenue_musd": 313.9
+        },
+        {
+          "id": "PMBR-2025Q3#SEG-3",
+          "name": "Analytics",
+          "revenue_musd": 257.1
+        }
+      ],
+      "ticker": "PMBR"
+    },
+    {
+      "company": "Pembroke Data Group",
+      "filed": "2026-02-12",
+      "financials": {
+        "cost_of_revenue_musd": 276.5,
+        "customers": 12306,
+        "free_cash_flow_musd": 278.6,
+        "net_income_musd": 247.2,
+        "opex_musd": 303.6,
+        "revenue_musd": 827.3
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 901.8,
+        "next_period_revenue_musd_low": 827.3
+      },
+      "id": "PMBR-2025Q4",
+      "mdna": [
+        {
+          "id": "PMBR-2025Q4#MD-1",
+          "text": "Revenue grew 15.6% against the prior period, driven principally by Terminal."
+        },
+        {
+          "id": "PMBR-2025Q4#MD-2",
+          "text": "The company reaffirms its guidance for the coming period."
+        },
+        {
+          "id": "PMBR-2025Q4#MD-3",
+          "text": "Gross margin was 66.6%, and management expects it to remain in a similar range."
+        }
+      ],
+      "period": "2025Q4",
+      "risk_factors": [
+        {
+          "id": "PMBR-2025Q4#RF-1",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 28.6% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 4 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "PMBR-2025Q4#RF-2",
+          "severity": "low",
+          "text": "15.6% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $31.9m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "PMBR-2025Q4#RF-3",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 42.7% annualised in the period. Replacement cost is carried at approximately $7.1m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        }
+      ],
+      "segments": [
+        {
+          "id": "PMBR-2025Q4#SEG-1",
+          "name": "Terminal",
+          "revenue_musd": 389.9
+        },
+        {
+          "id": "PMBR-2025Q4#SEG-2",
+          "name": "Enterprise feeds",
+          "revenue_musd": 264.6
+        },
+        {
+          "id": "PMBR-2025Q4#SEG-3",
+          "name": "Analytics",
+          "revenue_musd": 172.8
+        }
+      ],
+      "ticker": "PMBR"
+    },
+    {
+      "company": "Solvent Treasury",
+      "filed": "2025-04-24",
+      "financials": {
+        "cost_of_revenue_musd": 375.3,
+        "customers": 15124,
+        "free_cash_flow_musd": 172.2,
+        "net_income_musd": 147.8,
+        "opex_musd": 358.9,
+        "revenue_musd": 882.0
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 961.4,
+        "next_period_revenue_musd_low": 882.0
+      },
+      "id": "SOLV-2025Q1",
+      "mdna": [
+        {
+          "id": "SOLV-2025Q1#MD-1",
+          "text": "Take rate was 61.7 basis points, below the prior period."
+        },
+        {
+          "id": "SOLV-2025Q1#MD-2",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Liquidity offset by softness elsewhere."
+        },
+        {
+          "id": "SOLV-2025Q1#MD-3",
+          "text": "The company has raised its guidance for the coming period."
+        }
+      ],
+      "period": "2025Q1",
+      "risk_factors": [
+        {
+          "id": "SOLV-2025Q1#RF-1",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $21.4m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "SOLV-2025Q1#RF-2",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 19.2% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 15 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "SOLV-2025Q1#RF-3",
+          "severity": "high",
+          "text": "Core ledger workloads run in 2 regions of a single cloud provider. A provider-wide outage would suspend authorisation, and the tested recovery objective is 45 minutes.",
+          "title": "Third-party infrastructure dependency"
+        }
+      ],
+      "segments": [
+        {
+          "id": "SOLV-2025Q1#SEG-1",
+          "name": "Liquidity",
+          "revenue_musd": 388.0
+        },
+        {
+          "id": "SOLV-2025Q1#SEG-2",
+          "name": "Payments",
+          "revenue_musd": 292.2
+        },
+        {
+          "id": "SOLV-2025Q1#SEG-3",
+          "name": "Advisory",
+          "revenue_musd": 201.8
+        }
+      ],
+      "ticker": "SOLV"
+    },
+    {
+      "company": "Solvent Treasury",
+      "filed": "2025-07-25",
+      "financials": {
+        "cost_of_revenue_musd": 322.3,
+        "customers": 1360,
+        "free_cash_flow_musd": 108.3,
+        "net_income_musd": 127.4,
+        "opex_musd": 425.2,
+        "revenue_musd": 874.9
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 953.6,
+        "next_period_revenue_musd_low": 874.9
+      },
+      "id": "SOLV-2025Q2",
+      "mdna": [
+        {
+          "id": "SOLV-2025Q2#MD-1",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Payments offset by softness elsewhere."
+        },
+        {
+          "id": "SOLV-2025Q2#MD-2",
+          "text": "Timing of recognition could shift between periods."
+        },
+        {
+          "id": "SOLV-2025Q2#MD-3",
+          "text": "Gross margin was 63.2%, and management expects it to remain in a similar range."
+        },
+        {
+          "id": "SOLV-2025Q2#MD-4",
+          "text": "Timing of recognition could shift between periods."
+        },
+        {
+          "id": "SOLV-2025Q2#MD-5",
+          "text": "The company has raised its guidance for the coming period."
+        },
+        {
+          "id": "SOLV-2025Q2#MD-6",
+          "text": "Timing of recognition could shift between periods."
+        }
+      ],
+      "period": "2025Q2",
+      "risk_factors": [
+        {
+          "id": "SOLV-2025Q2#RF-1",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 21 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "SOLV-2025Q2#RF-2",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 20.5% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 12 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "SOLV-2025Q2#RF-3",
+          "severity": "low",
+          "text": "33.1% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $35.5m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "SOLV-2025Q2#RF-4",
+          "severity": "medium",
+          "text": "Credit limits for 38458 accounts are set by an automated model. Model error has produced 6 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        }
+      ],
+      "segments": [
+        {
+          "id": "SOLV-2025Q2#SEG-1",
+          "name": "Liquidity",
+          "revenue_musd": 159.7
+        },
+        {
+          "id": "SOLV-2025Q2#SEG-2",
+          "name": "Payments",
+          "revenue_musd": 236.9
+        },
+        {
+          "id": "SOLV-2025Q2#SEG-3",
+          "name": "Advisory",
+          "revenue_musd": 478.3
+        }
+      ],
+      "ticker": "SOLV"
+    },
+    {
+      "company": "Solvent Treasury",
+      "filed": "2025-10-23",
+      "financials": {
+        "cost_of_revenue_musd": 377.6,
+        "customers": 24835,
+        "free_cash_flow_musd": 43.0,
+        "net_income_musd": 58.4,
+        "opex_musd": 432.2,
+        "revenue_musd": 868.2
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 946.3,
+        "next_period_revenue_musd_low": 868.2
+      },
+      "id": "SOLV-2025Q3",
+      "mdna": [
+        {
+          "id": "SOLV-2025Q3#MD-1",
+          "text": "Gross margin was 56.5%, and management expects it to remain in a similar range."
+        },
+        {
+          "id": "SOLV-2025Q3#MD-2",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Advisory offset by softness elsewhere."
+        },
+        {
+          "id": "SOLV-2025Q3#MD-3",
+          "text": "The company reaffirms its guidance for the coming period."
+        },
+        {
+          "id": "SOLV-2025Q3#MD-4",
+          "text": "The estimate is subject to revision as additional information becomes available."
+        },
+        {
+          "id": "SOLV-2025Q3#MD-5",
+          "text": "Management believes, though cannot assure, that the trend continues."
+        },
+        {
+          "id": "SOLV-2025Q3#MD-6",
+          "text": "The estimate is subject to revision as additional information becomes available."
+        }
+      ],
+      "period": "2025Q3",
+      "risk_factors": [
+        {
+          "id": "SOLV-2025Q3#RF-1",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 14.2% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 15 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "SOLV-2025Q3#RF-2",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 22 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "SOLV-2025Q3#RF-3",
+          "severity": "low",
+          "text": "38.7% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $31.9m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "SOLV-2025Q3#RF-4",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $33.8m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        }
+      ],
+      "segments": [
+        {
+          "id": "SOLV-2025Q3#SEG-1",
+          "name": "Liquidity",
+          "revenue_musd": 301.2
+        },
+        {
+          "id": "SOLV-2025Q3#SEG-2",
+          "name": "Payments",
+          "revenue_musd": 266.1
+        },
+        {
+          "id": "SOLV-2025Q3#SEG-3",
+          "name": "Advisory",
+          "revenue_musd": 300.9
+        }
+      ],
+      "ticker": "SOLV"
+    },
+    {
+      "company": "Solvent Treasury",
+      "filed": "2026-02-12",
+      "financials": {
+        "cost_of_revenue_musd": 319.1,
+        "customers": 6624,
+        "free_cash_flow_musd": 299.2,
+        "net_income_musd": 235.3,
+        "opex_musd": 342.6,
+        "revenue_musd": 897.0
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 977.7,
+        "next_period_revenue_musd_low": 897.0
+      },
+      "id": "SOLV-2025Q4",
+      "mdna": [
+        {
+          "id": "SOLV-2025Q4#MD-1",
+          "text": "Gross margin was 64.4%, and management expects it to remain in a similar range."
+        },
+        {
+          "id": "SOLV-2025Q4#MD-2",
+          "text": "Revenue grew 1.2% against the prior period, driven principally by Payments."
+        },
+        {
+          "id": "SOLV-2025Q4#MD-3",
+          "text": "The company reaffirms its guidance for the coming period."
+        },
+        {
+          "id": "SOLV-2025Q4#MD-4",
+          "text": "Results may not be indicative of future periods."
+        }
+      ],
+      "period": "2025Q4",
+      "risk_factors": [
+        {
+          "id": "SOLV-2025Q4#RF-1",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 55.5% annualised in the period. Replacement cost is carried at approximately $23.0m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        },
+        {
+          "id": "SOLV-2025Q4#RF-2",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 4 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "SOLV-2025Q4#RF-3",
+          "severity": "high",
+          "text": "Core ledger workloads run in 3 regions of a single cloud provider. A provider-wide outage would suspend authorisation, and the tested recovery objective is 45 minutes.",
+          "title": "Third-party infrastructure dependency"
+        },
+        {
+          "id": "SOLV-2025Q4#RF-4",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $31.0m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        }
+      ],
+      "segments": [
+        {
+          "id": "SOLV-2025Q4#SEG-1",
+          "name": "Liquidity",
+          "revenue_musd": 315.9
+        },
+        {
+          "id": "SOLV-2025Q4#SEG-2",
+          "name": "Payments",
+          "revenue_musd": 393.4
+        },
+        {
+          "id": "SOLV-2025Q4#SEG-3",
+          "name": "Advisory",
+          "revenue_musd": 187.7
+        }
+      ],
+      "ticker": "SOLV"
+    },
+    {
+      "company": "Harrowvane Clearing",
+      "filed": "2025-04-24",
+      "financials": {
+        "cost_of_revenue_musd": 160.4,
+        "customers": 18346,
+        "free_cash_flow_musd": 69.0,
+        "net_income_musd": 88.7,
+        "opex_musd": 153.5,
+        "revenue_musd": 402.6
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 438.8,
+        "next_period_revenue_musd_low": 402.6
+      },
+      "id": "HRVN-2025Q1",
+      "mdna": [
+        {
+          "id": "HRVN-2025Q1#MD-1",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Collateral offset by softness elsewhere."
+        },
+        {
+          "id": "HRVN-2025Q1#MD-2",
+          "text": "Take rate was 72.2 basis points, below the prior period."
+        },
+        {
+          "id": "HRVN-2025Q1#MD-3",
+          "text": "The company has raised its guidance for the coming period."
+        },
+        {
+          "id": "HRVN-2025Q1#MD-4",
+          "text": "Management believes, though cannot assure, that the trend continues."
+        }
+      ],
+      "period": "2025Q1",
+      "risk_factors": [
+        {
+          "id": "HRVN-2025Q1#RF-1",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 3 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "HRVN-2025Q1#RF-2",
+          "severity": "medium",
+          "text": "An examination of the client asset segregation process opened in the period and remains open. No findings have been issued. The company has accrued $27.7m against expected remediation cost.",
+          "title": "Pending regulatory examination"
+        },
+        {
+          "id": "HRVN-2025Q1#RF-3",
+          "severity": "low",
+          "text": "35.0% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $16.5m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "HRVN-2025Q1#RF-4",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 27.9% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 5 months.",
+          "title": "Concentration of settlement volume"
+        }
+      ],
+      "segments": [
+        {
+          "id": "HRVN-2025Q1#SEG-1",
+          "name": "Clearing fees",
+          "revenue_musd": 114.3
+        },
+        {
+          "id": "HRVN-2025Q1#SEG-2",
+          "name": "Collateral",
+          "revenue_musd": 154.5
+        },
+        {
+          "id": "HRVN-2025Q1#SEG-3",
+          "name": "Regulatory reporting",
+          "revenue_musd": 133.8
+        }
+      ],
+      "ticker": "HRVN"
+    },
+    {
+      "company": "Harrowvane Clearing",
+      "filed": "2025-07-25",
+      "financials": {
+        "cost_of_revenue_musd": 128.3,
+        "customers": 1727,
+        "free_cash_flow_musd": 50.8,
+        "net_income_musd": 71.4,
+        "opex_musd": 205.2,
+        "revenue_musd": 404.9
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 441.3,
+        "next_period_revenue_musd_low": 404.9
+      },
+      "id": "HRVN-2025Q2",
+      "mdna": [
+        {
+          "id": "HRVN-2025Q2#MD-1",
+          "text": "The company has raised its guidance for the coming period."
+        },
+        {
+          "id": "HRVN-2025Q2#MD-2",
+          "text": "Management believes, though cannot assure, that the trend continues."
+        },
+        {
+          "id": "HRVN-2025Q2#MD-3",
+          "text": "Gross margin was 68.3%, and management expects it to remain in a similar range."
+        },
+        {
+          "id": "HRVN-2025Q2#MD-4",
+          "text": "Timing of recognition could shift between periods."
+        },
+        {
+          "id": "HRVN-2025Q2#MD-5",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Clearing fees offset by softness elsewhere."
+        },
+        {
+          "id": "HRVN-2025Q2#MD-6",
+          "text": "Management believes, though cannot assure, that the trend continues."
+        }
+      ],
+      "period": "2025Q2",
+      "risk_factors": [
+        {
+          "id": "HRVN-2025Q2#RF-1",
+          "severity": "medium",
+          "text": "Credit limits for 25509 accounts are set by an automated model. Model error has produced 5 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        },
+        {
+          "id": "HRVN-2025Q2#RF-2",
+          "severity": "high",
+          "text": "Core ledger workloads run in 3 regions of a single cloud provider. A provider-wide outage would suspend authorisation, and the tested recovery objective is 30 minutes.",
+          "title": "Third-party infrastructure dependency"
+        },
+        {
+          "id": "HRVN-2025Q2#RF-3",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 9 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "HRVN-2025Q2#RF-4",
+          "severity": "low",
+          "text": "35.7% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $6.2m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "HRVN-2025Q2#RF-5",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 13.2% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 13 months.",
+          "title": "Concentration of settlement volume"
+        }
+      ],
+      "segments": [
+        {
+          "id": "HRVN-2025Q2#SEG-1",
+          "name": "Clearing fees",
+          "revenue_musd": 118.7
+        },
+        {
+          "id": "HRVN-2025Q2#SEG-2",
+          "name": "Collateral",
+          "revenue_musd": 143.4
+        },
+        {
+          "id": "HRVN-2025Q2#SEG-3",
+          "name": "Regulatory reporting",
+          "revenue_musd": 142.7
+        }
+      ],
+      "ticker": "HRVN"
+    },
+    {
+      "company": "Harrowvane Clearing",
+      "filed": "2025-10-23",
+      "financials": {
+        "cost_of_revenue_musd": 151.5,
+        "customers": 21152,
+        "free_cash_flow_musd": 81.3,
+        "net_income_musd": 70.8,
+        "opex_musd": 178.9,
+        "revenue_musd": 401.2
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 437.3,
+        "next_period_revenue_musd_low": 401.2
+      },
+      "id": "HRVN-2025Q3",
+      "mdna": [
+        {
+          "id": "HRVN-2025Q3#MD-1",
+          "text": "Timing of recognition could shift between periods."
+        },
+        {
+          "id": "HRVN-2025Q3#MD-2",
+          "text": "Revenue was broadly unchanged against the prior period, with growth in Collateral offset by softness elsewhere."
+        },
+        {
+          "id": "HRVN-2025Q3#MD-3",
+          "text": "Take rate was 33.5 basis points, below the prior period."
+        },
+        {
+          "id": "HRVN-2025Q3#MD-4",
+          "text": "The company has revised its guidance for the coming period downward."
+        }
+      ],
+      "period": "2025Q3",
+      "risk_factors": [
+        {
+          "id": "HRVN-2025Q3#RF-1",
+          "severity": "high",
+          "text": "A single sponsoring institution processed 12.0% of settlement volume in the period. Loss of that relationship would require re-papering the flow with an alternative sponsor, which management estimates would take 12 months.",
+          "title": "Concentration of settlement volume"
+        },
+        {
+          "id": "HRVN-2025Q3#RF-2",
+          "severity": "high",
+          "text": "Core ledger workloads run in 1 regions of a single cloud provider. A provider-wide outage would suspend authorisation, and the tested recovery objective is 15 minutes.",
+          "title": "Third-party infrastructure dependency"
+        },
+        {
+          "id": "HRVN-2025Q3#RF-3",
+          "severity": "low",
+          "text": "36.4% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $30.1m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "HRVN-2025Q3#RF-4",
+          "severity": "low",
+          "text": "Voluntary attrition in engineering was 49.0% annualised in the period. Replacement cost is carried at approximately $19.0m in the period's operating expense.",
+          "title": "Retention of engineering staff"
+        },
+        {
+          "id": "HRVN-2025Q3#RF-5",
+          "severity": "medium",
+          "text": "Credit limits for 26720 accounts are set by an automated model. Model error has produced 6 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        }
+      ],
+      "segments": [
+        {
+          "id": "HRVN-2025Q3#SEG-1",
+          "name": "Clearing fees",
+          "revenue_musd": 100.9
+        },
+        {
+          "id": "HRVN-2025Q3#SEG-2",
+          "name": "Collateral",
+          "revenue_musd": 101.5
+        },
+        {
+          "id": "HRVN-2025Q3#SEG-3",
+          "name": "Regulatory reporting",
+          "revenue_musd": 198.8
+        }
+      ],
+      "ticker": "HRVN"
+    },
+    {
+      "company": "Harrowvane Clearing",
+      "filed": "2026-02-12",
+      "financials": {
+        "cost_of_revenue_musd": 164.3,
+        "customers": 15618,
+        "free_cash_flow_musd": 26.1,
+        "net_income_musd": 33.0,
+        "opex_musd": 209.5,
+        "revenue_musd": 406.8
+      },
+      "guidance": {
+        "next_period_revenue_musd_high": 443.4,
+        "next_period_revenue_musd_low": 406.8
+      },
+      "id": "HRVN-2025Q4",
+      "mdna": [
+        {
+          "id": "HRVN-2025Q4#MD-1",
+          "text": "Operating expense grew 15.6% as the company continued to invest in the data pipeline."
+        },
+        {
+          "id": "HRVN-2025Q4#MD-2",
+          "text": "Revenue grew 1.2% against the prior period, driven principally by Clearing fees."
+        },
+        {
+          "id": "HRVN-2025Q4#MD-3",
+          "text": "The company has revised its guidance for the coming period downward."
+        }
+      ],
+      "period": "2025Q4",
+      "risk_factors": [
+        {
+          "id": "HRVN-2025Q4#RF-1",
+          "severity": "low",
+          "text": "40.9% of revenue is denominated in currencies other than the reporting currency. A ten percent adverse move would reduce reported revenue by roughly $14.5m at constant volume.",
+          "title": "Foreign exchange translation"
+        },
+        {
+          "id": "HRVN-2025Q4#RF-2",
+          "severity": "medium",
+          "text": "Proposed changes to the domestic fee schedule would compress take rate by an estimated 14 basis points on affected volume. The proposal is in consultation and no effective date has been set.",
+          "title": "Interchange and fee schedule reform"
+        },
+        {
+          "id": "HRVN-2025Q4#RF-3",
+          "severity": "medium",
+          "text": "Credit limits for 11891 accounts are set by an automated model. Model error has produced 6 limit-setting incidents in the period, none of which resulted in a realised loss above the reserve.",
+          "title": "Model risk in automated limit setting"
+        }
+      ],
+      "segments": [
+        {
+          "id": "HRVN-2025Q4#SEG-1",
+          "name": "Clearing fees",
+          "revenue_musd": 209.2
+        },
+        {
+          "id": "HRVN-2025Q4#SEG-2",
+          "name": "Collateral",
+          "revenue_musd": 87.3
+        },
+        {
+          "id": "HRVN-2025Q4#SEG-3",
+          "name": "Regulatory reporting",
+          "revenue_musd": 110.3
+        }
+      ],
+      "ticker": "HRVN"
+    }
+  ]
+}
